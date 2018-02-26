@@ -5,60 +5,55 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="icon" type="image/png" href="#">
+  <link rel="stylesheet" type="text/css" href="./stylesheets/reset.css">
   <link rel="stylesheet" type="text/css" href="./stylesheets/styles.css">
   <title>Static Comp 3</title>
 </head>
 <body>
-  <aside class="aside-nav">
-    <nav class="nav-main">
-      <p>img</p>
-      <p>text</p> <!-- span? -->
-      <ul>
-        <li>Main</li>
-        <li>Home</li>
-        <li>Jobs</li>
-        <li>Resumes</li>
-        <li>Tasks</li>
-        <li>Calendar</li>
-      </ul>
-    </nav>
-    <nav class="nav-admin"></nav>
-      <ul>
-        <li>Admin</li>        
-        <li>Users</li>
-        <li>Locations</li>
-        <li>Workflows</li>
-        <li>Job Boards</li>
-        <li>Social</li>
-      </ul>
-    <nav class="nav-categories">
-      <ul><!-- checkboxes -->
-        <li>Categories</li>
-        <li>Administrative</li>
-        <li>Design</li>
-        <li>Executive</li>
-        <li>Human Resources</li>  
-      </ul>
-    </nav>
-  </aside>
-  <main>
-    <header>
-      <button>hamburger</button>
-      <form action="">
-        <input type="text" placeholder="Search for a job, task, or resume" />
+<div class="wrapper">
+  <nav class="nav">
+    <div class="nav__avatar">
+      <span class="nav__avatar-text">Newton Barley</span>
+    </div>
+    <ul class="nav__ul nav__main">
+      <li class="nav__li nav__li-first"><span class="nav__li-category">Main</span></li>
+      <li class="nav__li"><a class="nav__link" href="#">Home</a></li>
+      <li class="nav__li"><a class="nav__link" href="#">Jobs</a></li>
+      <li class="nav__li"><a class="nav__link" href="#">Resumes</a></li>
+      <li class="nav__li"><a class="nav__link" href="#">Tasks</a></li>
+      <li class="nav__li"><a class="nav__link" href="#">Calendar</a></li>
+    </ul>
+    <ul class="nav__ul nav__admin">
+      <li class="nav__li nav__li-first"><span class="nav__li-category">Admin</span></li>
+      <li class="nav__li"><a class="nav__link" href="#">Users</a></li>
+      <li class="nav__li"><a class="nav__link" href="#">Locations</a></li>
+      <li class="nav__li"><a class="nav__link" href="#">Workflows</a></li>
+      <li class="nav__li"><a class="nav__link" href="#">Job Boards</a></li>
+      <li class="nav__li"><a class="nav__link" href="#">Social</a></li>
+    </ul>
+    <ul class="nav__ul nav__categories">
+      <li class="nav__li nav__li-first"><span class="nav__li-category">Categories</span></li>
+        <form action="">
+      <li class="nav__li"><input class="nav__checkbox nav__checkbox-yellow" id="checkbox-admin" type="checkbox">
+        <label for="checkbox-admin">Administrative</label></li>
+      <li class="nav__li"><input class="nav__checkbox nav__checkbox-blue" id="checkbox-design" type="checkbox">
+        <label for="checkbox-design">Design</label></li>
+      <li class="nav__li"><input class="nav__checkbox nav__checkbox-red" id="checkbox-executives" type="checkbox">
+        <label for="checkbox-executives">Executive</label></li>
+      <li class="nav__li"><input class="nav__checkbox nav__checkbox-green" id="checkbox-hr" type="checkbox">
+        <label for="checkbox-hr">Human Resources</label></li>
       </form>
-      <button>#</button>
-      <button>#</button>
-      <button>#</button>
-    </header>
-    <section>
+    </ul>
+  </nav>
+  <main class="main">
+    <header class="main__header">
       <h2>Customer Serive Representative</h2>
       <p>San Francisco,CA - Preview this post</p>
       <button>Open</button>
       <button>#</button>
       <button>#</button>
       <button>#</button>
-    </section>
+    </header>
     <section>
       <ul>
         <li>Summary</li>
@@ -67,7 +62,7 @@
         <li>Interviews</li>
         <li>Activity</li>
         <li>Broadcast</li>
-        <li>Notifications</li>        
+        <li>Notifications</li>
       </ul>
     </section>
     <section>
@@ -76,21 +71,39 @@
       <p>donut 3</p>
       <p>graph 1</p>
       <button>Totals - Out of 5231 views</button>
-      <button>Applicants/Day</button>
-      <!-- bottom border with up arrow -->
-    </section>
-    <section>
+      <button>Applicants/Day</button></section>
+    <section class="bottom-sec">
       <article>
         <!-- <form action="">should this be a form?</form> -->
-        <h4>Job description <button>Edit</button></h4>
-        <p>Position Title <span>Customer Service Representative</span></p>
-        <p>Location <span>San Francisco, CA</span></p>
-        <p>Employment Type <span>Full-time</span></p>
-        <p>Experience <span>Mid-level</span></p>
-        <p>Status <span>Open</span></p>
-        <p>Description <span>The Customer Service Representative is responsible for interacting with and providing quality assistance to all radical customers, responsible for keeping up-to-date on the various product shizzle; helping the bidness reduce customer service wait times while doing a backhand spring and eatting a ham sandwhich.</span></p>
-        <p>Hiring Lead <span><!-- bg image -->Tom Tizzy</span></p>
-        <p>Approved Salary <span>$58,000</span></p>
+        <h4>Job description</h4>
+        <button>Edit</button>
+        </h4>
+        <p>Position Title
+          <span>Customer Service Representative</span>
+        </p>
+        <p>Location
+          <span>San Francisco, CA</span>
+        </p>
+        <p>Employment Type
+          <span>Full-time</span>
+        </p>
+        <p>Experience
+          <span>Mid-level</span>
+        </p>
+        <p>Status
+          <span>Open</span>
+        </p>
+        <p>Description
+          <span>The Customer Service Representative is responsible for interacting with and providing quality assistance to all radical
+            customers, responsible for keeping up-to-date on the various product shizzle; helping the bidness reduce customer service
+            wait times while doing a backhand spring and eatting a ham sandwhich.</span>
+        </p>
+        <p>Hiring Lead
+          <span><!-- bg image -->Tom Tizzy</span>
+        </p>
+        <p>Approved Salary
+          <span>$58,000</span>
+        </p>
       </article>
       <aside>
         <button>Post to Facebook</button>
@@ -98,7 +111,8 @@
         <button>Post to Linkedin</button>
         <p>Link to this Job</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Integer Mollis neque eget vestibpend.</p>
-        <input type="text" placeholder="http://loremipsum.dol/sit amet..."> <!-- do I need a form for each of these inputs? -->
+        <input type="text" placeholder="http://loremipsum.dol/sit amet...">
+        <!-- do I need a form for each of these inputs? -->
         <button>Copy</button>
         <p>Use the button Widget</p>
         <p>This widget embeds the buttons for sharing the job for submitting a resume on your website.</p>
@@ -111,8 +125,7 @@
         <!-- do I need a form for each of these inputs? -->
       </aside>
     </section>
-
   </main>
-
+</div>
 </body>
 </html>
