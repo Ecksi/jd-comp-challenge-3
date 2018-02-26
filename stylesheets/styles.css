@@ -123,6 +123,98 @@ body {
 }
 
 .main {
-  background-color: lightseagreen;
   width: 85%;
+}
+
+.search {
+  border-bottom: 1px solid gray;
+  height: 50px;
+}
+
+.search__arrow {
+  height: 100%;
+}
+
+.search__hamburger {
+  display: inline-block;
+  height: 100%;
+  width: 30px;
+}
+
+.search__hamburger:hover {
+  background-color: skyblue;
+}
+
+.search__form {
+  display: inline;
+}
+
+.search__input {
+  height: 100%;
+  border: none;
+  border-left: 1px solid gray;
+  font-size: 16px;
+  padding: 10px;
+  width: calc(100% - 200px);
+}
+
+.search__button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  border-left: 1px solid gray;
+  float: right;
+  height: 100%;
+  width: 50px;
+}
+
+.search__button:hover {
+  background-color: skyblue;
+}
+
+.header {
+  position: relative;
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+
+.header__title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.header__location {
+  display: inline;
+  font-size: 14px;
+}
+
+.header__link {
+  text-decoration: none;
+  color: skyblue;
+}
+
+.header__button {
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 50%;
+  height: 25px;
+  position: absolute;
+  width: 25px;
+}
+
+.header__button-open {
+  border-radius: 28px;
+  right: 150px;
+  width: 75px;
+}
+
+.header__button-bookmark {
+  right: 110px;
+}
+
+.header__button-edit {
+  right: 70px;
+}
+
+.header__button-delete {
+  right: 30px;
 }
