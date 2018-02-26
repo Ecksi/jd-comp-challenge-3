@@ -1,3 +1,128 @@
 * {
   box-sizing: border-box;
 }
+
+html,
+body {
+  width: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif
+}
+
+.wrapper {
+  display: flex;
+  height: 100%;
+}
+
+.nav {
+  background-color: #39414a;
+  color: #c4c4c4;  
+  font-size: 14px;
+  text-transform: uppercase;
+  width: 15%;
+}
+
+.nav__avatar {
+  background-image:  url('https://laughingsquid.com/wp-content/uploads/Octopussy.jpg');
+  background-size: 200px;
+  background-position: -55px 5px;
+  border-radius: 50%;
+  height: 100px;
+  position: relative;
+  margin: 30px auto 50px auto;
+  width: 100px;
+}
+
+.nav__avatar-text {
+  position: absolute;
+  text-align: center;
+  text-transform: none;
+  top: 110px;
+}
+
+.nav__ul {
+  border-top: 2px solid #262a2e;
+  margin: 20px 0;
+  padding-top: 20px;
+}
+
+.nav__li {
+  padding: 10px;
+}
+
+.nav__li:hover {
+  background-color: #262a2e;
+  border-left: 4px solid #1E90FF;
+}
+
+.nav__li-first {
+  color: #6f6e6e;
+  text-transform: none;
+}
+
+.nav__li-first:hover {
+  background-color: #39414a;
+  border: none;
+  color: #6f6e6e;
+}
+
+.nav__li-category,
+.nav__link {
+  margin-left: 15px;
+}
+
+.nav__link {
+  color: #c4c4c4;
+  text-decoration: none;
+}
+
+.nav__link:hover {
+  color:#fff;
+}
+
+.nav__checkbox {
+  margin-left: -5px;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.nav__checkbox + label:before {
+  content: "\00a0";
+  display: inline-block;
+  height: 16px;
+  margin-right: 10px;  
+  width: 16px;
+}
+
+.nav__checkbox:checked + label:before {
+  color: #333;
+  content: "\2713";
+  text-align: center;
+}
+
+.nav__checkbox:checked + label:after {
+  font-weight: bold;
+}
+
+.nav__checkbox-yellow + label:before {
+  background-color: yellow;
+}
+
+.nav__checkbox-blue + label:before {
+  background-color: blue;
+}
+
+.nav__checkbox-red + label:before {
+  background-color: red;
+}
+
+.nav__checkbox-green + label:before {
+  background-color: green;
+}
+
+.main {
+  background-color: lightseagreen;
+  width: 85%;
+}
