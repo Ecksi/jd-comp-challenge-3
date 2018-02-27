@@ -218,3 +218,83 @@ body {
 .header__button-delete {
   right: 30px;
 }
+
+.info-tab {
+  margin-left: 30px;
+}
+
+.info-tab__ul {
+  margin-bottom: 13px;
+}
+
+.info-tab__li {
+  display: inline;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 10px;
+  padding: 10px 10px 10px 0;
+}
+
+.info-tab__li:hover {
+  border-bottom: 3px solid skyblue;
+}
+
+.bottom-wrapper {
+  background-color: rgba(182, 238, 237, 0.42);
+  border-top: 1px solid gray;
+  height: 78.2%;
+}
+
+.graphs {
+  margin-left: 30px;
+  margin-top: 30px;
+  display: flex;
+}
+
+.graphs__donut {
+  width: 50%;
+}
+
+.graphs__button {
+  display: block;
+}
+
+.graphs__bar {
+  width: 50%;
+}
+
+.description {
+  display: flex;
+  margin: 50px 30px 0 30px;
+}
+
+.description__list {
+  display: flex;
+  margin-right: 50px;
+  width: 70%;
+  height: 30px;
+}
+
+.description__li {
+  background-color: #fff;
+  border-top: 1px solid gray;
+  padding: 15px;
+}
+
+.description__li-first {
+  border: none;
+  background-color: gray;
+  color: white;
+}
+.description__aside {
+  width: 30%;
+}
+
+.description__button {
+  background-color: cadetblue;
+  display: block;
+  height: 40px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  width: 100%;
+}

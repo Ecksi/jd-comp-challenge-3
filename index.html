@@ -57,85 +57,104 @@
       <button class="button search__button">3</button>
     </section>
     <header class="header">
-      <h2 class="header__title">Customer Service Representative</h2>
-      <p class="header__location">San Francisco,CA &#8226; 
+      <h2 class="header__title">Incubatee for Aviato</h2>
+      <p class="header__location">Silicon Valley, CA &#8226; 
       <a class="header__link" href=""> Preview this post</a></p>
       <button class="button header__button header__button-open">Open</button>
       <button class="button header__button header__button-bookmark">#</button>
       <button class="button header__button header__button-edit">#</button>
       <button class="button header__button header__button-delete">#</button>
     </header>
-    <section>
-      <ul>
-        <li>Summary</li>
-        <li>Applicants</li>
-        <li>Job Board</li>
-        <li>Interviews</li>
-        <li>Activity</li>
-        <li>Broadcast</li>
-        <li>Notifications</li>
+    <section class="info-tab">
+      <ul class="info-tab__ul">
+        <li class="info-tab__li">Summary</li>
+        <li class="info-tab__li">Applicants</li>
+        <li class="info-tab__li">Job Board</li>
+        <li class="info-tab__li">Interviews</li>
+        <li class="info-tab__li">Activity</li>
+        <li class="info-tab__li">Broadcast</li>
+        <li class="info-tab__li">Notifications</li>
       </ul>
     </section>
-    <section>
-      <p>donut 1</p>
-      <p>donut 2</p>
-      <p>donut 3</p>
-      <p>graph 1</p>
-      <button>Totals - Out of 5231 views</button>
-      <button>Applicants/Day</button></section>
-    <section class="bottom-sec">
-      <article>
-        <!-- <form action="">should this be a form?</form> -->
-        <h4>Job description</h4>
-        <button>Edit</button>
-        </h4>
-        <p>Position Title
-          <span>Customer Service Representative</span>
-        </p>
-        <p>Location
-          <span>San Francisco, CA</span>
-        </p>
-        <p>Employment Type
-          <span>Full-time</span>
-        </p>
-        <p>Experience
-          <span>Mid-level</span>
-        </p>
-        <p>Status
-          <span>Open</span>
-        </p>
-        <p>Description
-          <span>The Customer Service Representative is responsible for interacting with and providing quality assistance to all radical
-            customers, responsible for keeping up-to-date on the various product shizzle; helping the bidness reduce customer service
-            wait times while doing a backhand spring and eatting a ham sandwhich.</span>
-        </p>
-        <p>Hiring Lead
-          <span><!-- bg image -->Tom Tizzy</span>
-        </p>
-        <p>Approved Salary
-          <span>$58,000</span>
-        </p>
-      </article>
-      <aside>
-        <button>Post to Facebook</button>
-        <button>Tweet this Job</button>
-        <button>Post to Linkedin</button>
-        <p>Link to this Job</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Integer Mollis neque eget vestibpend.</p>
-        <input type="text" placeholder="http://loremipsum.dol/sit amet...">
-        <!-- do I need a form for each of these inputs? -->
-        <button>Copy</button>
-        <p>Use the button Widget</p>
-        <p>This widget embeds the buttons for sharing the job for submitting a resume on your website.</p>
-        <input type="text" placeholder='<script type="text/javascript" s...'>
-        <button>Copy</button>
-        <!-- do I need a form for each of these inputs? -->
-        <p>Upload Resumes by Email</p>
-        <p>You can automatically upload multiple resumes to this job by emailing the address below.</p>
-        <input type="text" placeholder="tomtizzy@gmail.com">
-        <!-- do I need a form for each of these inputs? -->
-      </aside>
-    </section>
+    <div class="bottom-wrapper">
+      <section class="graphs">
+        <div class="graphs__donuts">
+        <svg width="100px" height="100px" viewBox="0 0 42 42" class="donut">
+          <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="rgba(0, 0, 0, 0"></circle>
+          <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
+          <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#ce4b99" stroke-width="3"></circle>
+        </svg>
+        <svg width="100px" height="100px" viewBox="0 0 42 42" class="donut">
+          <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="rgba(0, 0, 0, 0"></circle>
+          <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
+          <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#ce4b99" stroke-width="3"></circle>
+        </svg>
+        <svg width="100px" height="100px" viewBox="0 0 42 42" class="donut">
+          <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="rgba(0, 0, 0, 0"></circle>
+          <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
+          <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#ce4b99" stroke-width="3"></circle>
+        </svg>
+        <button class="graphs__button">Totals - Out of 5231 views</button>
+        </div>
+        <div class="graphs__bar">
+          <p>graph 1</p>
+          <button>Applicants/Day</button>
+        </div>
+      </section>
+      <section class="description">
+        <article class="description__list">
+          <ul class="description__ul">
+            <li class="description__li description__li-first">Job description <button>Edit</button></li>
+            <li class="description__li">Position Title
+              <span class="description__span">Incubatee for Aviato</span>
+            </li>
+            <li class="description__li">Location
+              <span class="description__span">Silicon Valley, CA</span>
+            </li>
+            <li class="description__li">
+            Employement Type
+              <span class="description__span">Full-time</span>
+            </li>
+            <li class="description__li">Experience
+              <span class="description__span">Mid-level</span>
+            </li>
+            <li class="description__li">Status
+              <span class="description__span">Open</span>
+            </li>
+            <li class="description__li">Description
+              <span class="description__span">The Customer Service Representative is responsible for interacting with and providing quality assistance to all radical customers,
+              responsible for keeping up-to-date on the various product shizzle; helping the bidness reduce customer service wait times
+              while doing a backhand spring and eatting a ham sandwhich.</span>
+            </li>
+            <li class="description__li">Hiring Lead
+              <span class="description__span">Erlich Bachman</span>
+            </li>
+            <li class="description__li">Approved Salary
+              <span class="description__span">$58,000</span>
+            </li>
+          </ul>
+        </article>
+        <aside class="description__aside">
+          <button class="button description__button">Post to Facebook</button>
+          <button class="button description__button">Tweet this Job</button>
+          <button class="button description__button">Post to Linkedin</button>
+          <p>Link to this Job</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Integer Mollis neque eget vestibpend.</p>
+          <input type="text" placeholder="http://loremipsum.dol/sit amet...">
+          <!-- do I need a form for each of these inputs? -->
+          <button>Copy</button>
+          <p>Use the button Widget</p>
+          <p>This widget embeds the buttons for sharing the job for submitting a resume on your website.</p>
+          <input type="text" placeholder='<script type="text/javascript" s...'>
+          <button>Copy</button>
+          <!-- do I need a form for each of these inputs? -->
+          <p>Upload Resumes by Email</p>
+          <p>You can automatically upload multiple resumes to this job by emailing the address below.</p>
+          <input type="text" placeholder="tomtizzy@gmail.com">
+          <!-- do I need a form for each of these inputs? -->
+        </aside>
+      </section>
+    </div>
   </main>
 </div>
 </body>
