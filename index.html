@@ -4,16 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="icon" type="image/png" href="#">
+  <link rel="icon" type="image/png" href="https://lh3.googleusercontent.com/GpHG3OHT3VMFefZJpKJ7Agg4yD6ng9xv8TQM5oSYVkIaktvvqo2t_cctczIQjB2IVw=w300">
   <link rel="stylesheet" type="text/css" href="./stylesheets/reset.css">
   <link rel="stylesheet" type="text/css" href="./stylesheets/styles.css">
-  <title>Static Comp 3</title>
+  <title>Not Hot Dog</title>
 </head>
 <body>
 <div class="wrapper">
   <nav class="nav">
     <div class="nav__avatar">
-      <span class="nav__avatar-text">Meowton Catsly</span>
+      <span class="nav__avatar-text">Jìng-Yáng</span>
     </div>
     <ul class="nav__ul nav__main">
       <li class="nav__li nav__li-first"><span class="nav__li-category">Main</span></li>
@@ -102,56 +102,73 @@
         </div>
       </section>
       <section class="description">
-        <article class="description__list">
-          <ul class="description__ul">
-            <li class="description__li description__li-first">Job description <button>Edit</button></li>
-            <li class="description__li">Position Title
-              <span class="description__span">Incubatee for Aviato</span>
-            </li>
-            <li class="description__li">Location
-              <span class="description__span">Silicon Valley, CA</span>
-            </li>
-            <li class="description__li">
-            Employement Type
-              <span class="description__span">Full-time</span>
-            </li>
-            <li class="description__li">Experience
-              <span class="description__span">Mid-level</span>
-            </li>
-            <li class="description__li">Status
-              <span class="description__span">Open</span>
-            </li>
-            <li class="description__li">Description
-              <span class="description__span">The Customer Service Representative is responsible for interacting with and providing quality assistance to all radical customers,
-              responsible for keeping up-to-date on the various product shizzle; helping the bidness reduce customer service wait times
-              while doing a backhand spring and eatting a ham sandwhich.</span>
-            </li>
-            <li class="description__li">Hiring Lead
-              <span class="description__span">Erlich Bachman</span>
-            </li>
-            <li class="description__li">Approved Salary
-              <span class="description__span">$58,000</span>
-            </li>
-          </ul>
+        <article class="description__article">
+          <table class="description__table">
+            <thead class="description__li description__li-first">
+              <tr class="description__table-tr">
+                <th class="descrption__table-th description__table-th-first">Job description</th>
+                <th class="descrption__table-th description__table-th-second"><button class="description__edit-btn">Edit</button></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="description__table-tr">
+                <td>Position Title</td>
+                <td>Incubatee for Aviato</td>
+              </tr>
+              <tr class="description__table-tr">
+                <td>Location</td>
+                <td>Silicon Valley, CA</td>
+              </tr>
+              <tr class="description__table-tr">
+                <td>Employement Type</td>
+                <td>Full-time</td>
+              </tr>
+              <tr class="description__table-tr">
+                <td>Experience</td>
+                <td>Mid-level</td>
+              </tr>
+              <tr class="description__table-tr">
+                <td>Status</td>
+                <td>Open</td>
+              </tr>
+              <tr class="description__table-tr">
+                <td>Description</td>
+                <td>The Customer Service Representative is responsible for interacting with and providing quality assistance to all radical customers,
+                responsible for keeping up-to-date on the various product shizzle; helping the bidness reduce customer service wait times
+                while doing a backhand spring and eatting a ham sandwhich.</td>
+              </tr>
+              <tr class="description__table-tr">
+                <td>Hiring Lead</td>
+                <td>Erlich Bachman</td>
+              </tr>
+              <tr class="description__table-tr">
+                <td>Approved Salary</td>
+                <td>$58,000</td>
+              </tr>
+            </tbody>
+          </table>
         </article>
         <aside class="description__aside">
-          <button class="button description__button">Post to Facebook</button>
-          <button class="button description__button">Tweet this Job</button>
-          <button class="button description__button">Post to Linkedin</button>
-          <p>Link to this Job</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Integer Mollis neque eget vestibpend.</p>
-          <input type="text" placeholder="http://loremipsum.dol/sit amet...">
-          <!-- do I need a form for each of these inputs? -->
-          <button>Copy</button>
-          <p>Use the button Widget</p>
-          <p>This widget embeds the buttons for sharing the job for submitting a resume on your website.</p>
-          <input type="text" placeholder='<script type="text/javascript" s...'>
-          <button>Copy</button>
-          <!-- do I need a form for each of these inputs? -->
-          <p>Upload Resumes by Email</p>
-          <p>You can automatically upload multiple resumes to this job by emailing the address below.</p>
-          <input type="text" placeholder="tomtizzy@gmail.com">
-          <!-- do I need a form for each of these inputs? -->
+          <button class="button description__social description__social-facebook">Post to Facebook</button>
+          <button class="button description__social description__social-twitter">Tweet this Job</button>
+          <button class="button description__social description__social-linkedin">Post to Linkedin</button>
+          <h5 class ="description__heading">Link to this Job</h5>
+          <p class="description__body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Integer Mollis neque eget vestibpend.</p>
+          <form class="description__form" action="">
+            <input class="input description__input" type="text" placeholder="http://loremipsum.dol/sit amet...">
+            <input class="button description__form-submit" type="submit">
+          </form>
+          <h5 class ="description__heading">Use the button Widget</h5>
+          <p class="description__body">This widget embeds the buttons for sharing the job for submitting a resume on your website.</p>
+          <form class="description__form" action="">
+            <input class="input description__input" type="text" placeholder='<script type="text/javascript" s...'>
+            <input class="button description__form-submit" type="submit">
+          </form>
+          <h5 class ="description__heading">Upload Resumes by Email</h5>
+          <p class="description__body">You can automatically upload multiple resumes to this job by emailing the address below.</p>
+          <form class="description__form" action="">
+            <input class="input description__input description__input-last" type="text" placeholder="tomtizzy@gmail.com">
+          </form>
         </aside>
       </section>
     </div>

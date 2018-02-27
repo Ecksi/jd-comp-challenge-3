@@ -4,6 +4,7 @@
 
 html,
 body {
+  height: 100%;
   width: 100%;
 }
 
@@ -13,19 +14,19 @@ body {
 
 .wrapper {
   display: flex;
-  height: 100%;
 }
 
 .nav {
   background-color: #39414a;
   color: #c4c4c4;  
   font-size: 14px;
+  height: 100%;
   text-transform: uppercase;
   width: 15%;
 }
 
 .nav__avatar {
-  background-image:  url('https://laughingsquid.com/wp-content/uploads/Octopussy.jpg');
+  background-image:  url('https://i.amz.mshcdn.com/IBpGd03G2CqjvnChNhqs89L4GaI=/950x534/filters:quality(90)/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fcard%2Fimage%2F476570%2Fda7476bf-9255-4e73-9ba4-cd18726a36a0.png');
   background-size: 200px;
   background-position: -55px 5px;
   border-radius: 50%;
@@ -37,9 +38,9 @@ body {
 
 .nav__avatar-text {
   position: absolute;
-  text-align: center;
   text-transform: none;
   top: 110px;
+  right: 17px;
 }
 
 .nav__ul {
@@ -80,6 +81,10 @@ body {
 
 .nav__link:hover {
   color:#fff;
+}
+
+.nav__categories {
+  margin-bottom: 100%;
 }
 
 .nav__checkbox {
@@ -232,7 +237,7 @@ body {
   font-size: 14px;
   font-weight: bold;
   margin-right: 10px;
-  padding: 10px 10px 10px 0;
+  padding: 10px;
 }
 
 .info-tab__li:hover {
@@ -242,7 +247,7 @@ body {
 .bottom-wrapper {
   background-color: rgba(182, 238, 237, 0.42);
   border-top: 1px solid gray;
-  height: 78.2%;
+  height: 81.5%;
 }
 
 .graphs {
@@ -264,21 +269,47 @@ body {
 }
 
 .description {
+  border-top: 2px solid;
   display: flex;
   margin: 50px 30px 0 30px;
+  padding-top: 50px;
 }
 
-.description__list {
+.description__article {
   display: flex;
   margin-right: 50px;
   width: 70%;
   height: 30px;
 }
 
+.description__table {
+  border: 1px solid gray;
+  border-collapse: collapse;
+  height: 100%;
+}
+
+.description__table-th-first {
+  width: 20%;  
+}
+
+.description__table-th-second {
+  width: 50%
+}
+
+.description__table-tr {
+  border-top: 1px solid;
+}
+
+td, th {
+  padding: 16px;
+}
+
 .description__li {
   background-color: #fff;
   border-top: 1px solid gray;
   padding: 15px;
+  text-align: left;
+  width: 100%;
 }
 
 .description__li-first {
@@ -286,15 +317,63 @@ body {
   background-color: gray;
   color: white;
 }
+
+.description__edit-btn {
+  background-color: rgb(85, 69, 69);
+  color: #fff;
+  padding: 5px 20px;
+  margin-left: 10px;
+}
+
 .description__aside {
   width: 30%;
 }
 
-.description__button {
-  background-color: cadetblue;
+.description__social {
   display: block;
   height: 40px;
   margin-bottom: 10px;
   margin-right: 20px;
   width: 100%;
+}
+
+.description__social-facebook {
+  background-color: lightblue;
+}
+
+.description__social-twitter {
+  background-color: skyblue;
+}
+
+.description__social-linkedin {
+  background-color: blue;
+}
+
+.description__heading {
+  font-weight: bold;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.description__body {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.description__input {
+  display: inline-block;
+  padding: 10px;
+  width: 78.9%;
+}
+
+.description__input-last {
+  width: 100%;
+}
+
+.description__form-submit {
+  background-color: rgba(0, 0, 0, 0);
+  padding: 0;
+  margin: 0;
+  height: 32px;
+  width: 18.9%;
 }
