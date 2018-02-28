@@ -88,40 +88,80 @@ body {
   background-image: url('../images/home.svg');
 }
 
+.nav__icon-home:hover {
+  background-image: url('../images/home-hover.svg');
+}
+
 .nav__icon-jobs {
   background-image: url('../images/jobs.svg');
+}
+
+.nav__icon-jobs:hover {
+  background-image: url('../images/jobs-hover.svg');
 }
 
 .nav__icon-resumes {
   background-image: url('../images/resumes.svg');
 }
 
+.nav__icon-resumes:hover {
+  background-image: url('../images/resumes-hover.svg');
+}
+
 .nav__icon-task {
   background-image: url('../images/task.svg');
+}
+
+.nav__icon-task:hover {
+  background-image: url('../images/task-hover.svg');
 }
 
 .nav__icon-calendar {
   background-image: url('../images/calendar.svg');
 }
 
+.nav__icon-calendar:hover {
+  background-image: url('../images/calendar-hover.svg');
+}
+
 .nav__icon-users {
   background-image: url('../images/users.svg');
+}
+
+.nav__icon-users:hover {
+  background-image: url('../images/users-hover.svg');
 }
 
 .nav__icon-locations {
   background-image: url('../images/locations.svg');
 }
 
+.nav__icon-locations:hover {
+  background-image: url('../images/locations-hover.svg');
+}
+
 .nav__icon-workflow {
   background-image: url('../images/workflow.svg');
+}
+
+.nav__icon-workflow:hover {
+  background-image: url('../images/workflow-hover.svg');
 }
 
 .nav__icon-job-boards {
   background-image: url('../images/job-boards.svg');
 }
 
+.nav__icon-job-boards:hover {
+  background-image: url('../images/job-boards-hover.svg');
+}
+
 .nav__icon-social {
   background-image: url('../images/social.svg');
+}
+
+.nav__icon-social:hover {
+  background-image: url('../images/social-hover.svg');
 }
 
 .nav__link {
@@ -189,10 +229,6 @@ body {
   height: 75px;
 }
 
-.search__arrow {
-  height: 100%;
-}
-
 .search__hamburger {
   background-image: url('../images/menu.jpg');
   background-size: 30px;
@@ -209,7 +245,6 @@ body {
 }
 
 .search__input {
-  border-left: 1px solid gray;
   border: none;
   font-size: 16px;
   height: 100%;
@@ -226,6 +261,7 @@ body {
   background-position-y: 28px;
   background-repeat: no-repeat;
   background-size: 18px;
+  border-left: 1px solid gray;
 }
 
 .search__button {
@@ -234,7 +270,6 @@ body {
   background-position-y: 50%;
   background-repeat: no-repeat;
   background-size: 40%;
-  border-left: 1px solid gray;
   border: none;
   float: right;
   height: 100%;
@@ -243,14 +278,29 @@ body {
 
 .search__button-first {
   background-image: url('../images/add-person.svg');
+  border-left: 1px solid gray;
+}
+
+.search__button-first:hover {
+  background-image: url('../images/add-person-hover.svg');
 }
 
 .search__button-middle {
   background-image: url('../images/add-date.svg');
+  border-left: 1px solid gray;
+}
+
+.search__button-middle:hover {
+  background-image: url('../images/add-date-hover.svg');
 }
 
 .search__button-last {
   background-image: url('../images/settings.svg');
+  border-left: 1px solid gray;
+}
+
+.search__button-last:hover {
+  background-image: url('../images/settings-hover.svg');
 }
 
 .search__button:hover {
@@ -421,11 +471,12 @@ td, th {
 
 .description__edit-btn {
   background-color: #7f8ca0;
-  background-image: url('../images/edit.svg');
+  background-image: url('../images/edit-hover.svg');
   background-position-x: 10px;
   background-position-y: 7px; 
   background-repeat: no-repeat;
   background-size: 12px;
+  border: none;
   color: #fff;
   padding: 7px 10px 7px 25px;
   width: 60px;
@@ -516,10 +567,10 @@ td, th {
 }
 
 .description__form-submit {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #6bb9c0;
+  border: none;
+  color: white;
   height: 32px;
-  margin: 0;
-  padding: 0;
   width: 18.9%;
 }
 
