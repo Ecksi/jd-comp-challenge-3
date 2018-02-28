@@ -29,20 +29,20 @@ body {
 
 .nav__avatar {
   background-image:  url('../images/jian_yang_whole.png');
-  background-size: 200px;
   background-position: -55px 5px;
+  background-size: 200px;
   border-radius: 50%;
   height: 100px;
-  position: relative;
   margin: 30px auto 50px auto;
+  position: relative;
   width: 100px;
 }
 
 .nav__avatar-text {
   position: absolute;
+  right: 17px;
   text-transform: none;
   top: 110px;
-  right: 17px;
 }
 
 .nav__ul {
@@ -77,10 +77,10 @@ body {
 }
 
 .nav__icon {
-  background-repeat: no-repeat;
-  background-size: 14px;
   background-position-x: 0%;
   background-position-y: 0%;
+  background-repeat: no-repeat;
+  background-size: 14px;
   padding-left: 25px;
 }
 
@@ -138,8 +138,8 @@ body {
 }
 
 .nav__checkbox {
-  margin-left: -5px;
   cursor: pointer;
+  margin-left: -5px;
   visibility: hidden;
 }
 
@@ -178,14 +178,14 @@ body {
 }
 
 .main {
-  width: 85%;
-  height: 100%;
   background-color: #fff;
+  height: 100%;
+  width: 85%;
 }
 
 .search {
-  display: flex;
   border-bottom: 1px solid gray;
+  display: flex;
   height: 75px;
 }
 
@@ -209,10 +209,10 @@ body {
 }
 
 .search__input {
-  height: 100%;
-  border: none;
   border-left: 1px solid gray;
+  border: none;
   font-size: 16px;
+  height: 100%;
   width: 100%;
 }
 
@@ -222,20 +222,20 @@ body {
 
 .search__input-background {
   background-image: url('../images/search.svg');
-  background-repeat: no-repeat;
-  background-size: 18px;
   background-position-x: 12px;
   background-position-y: 28px;
+  background-repeat: no-repeat;
+  background-size: 18px;
 }
 
 .search__button {
   background-color: rgba(0, 0, 0, 0);
-  background-repeat: no-repeat;
-  background-size: 40%;
   background-position-x: 50%;
   background-position-y: 50%;
-  border: none;
+  background-repeat: no-repeat;
+  background-size: 40%;
   border-left: 1px solid gray;
+  border: none;
   float: right;
   height: 100%;
   width: 75px;
@@ -258,10 +258,10 @@ body {
 }
 
 .header {
-  position: relative;
-  margin-left: 30px;
   margin-bottom: 50px;
+  margin-left: 30px;
   margin-top: 50px;
+  position: relative;
 }
 
 .header__title {
@@ -272,8 +272,8 @@ body {
 
 .header__location {
   background-image: url('../images/locations.svg');
-  background-repeat: no-repeat;
   background-position-y: 50%;
+  background-repeat: no-repeat;
   display: inline;
   font-size: 14px;
   padding-left: 20px;
@@ -286,11 +286,11 @@ body {
 
 .header__button {
   background-color: rgba(0, 0, 0, 0);
-  border-radius: 50%;
-  background-repeat: no-repeat;
   background-position-x: 50%;
   background-position-y: 50%;
+  background-repeat: no-repeat;
   background-size: 50%;
+  border-radius: 50%;
   height: 35px;
   position: absolute;
   width: 35px;
@@ -344,21 +344,21 @@ body {
 }
 
 .graphs {
+  display: flex;
   margin-left: 30px;
   margin-top: 30px;
-  display: flex;
 }
 
 .graphs__donuts,
 .graphs__bar {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .graphs__button {
-  display: block;
   border-radius: 28px;
+  display: block;
   height: 24px;
   width: 200px;
 }
@@ -371,22 +371,22 @@ body {
 .description {
   border-top: 2px solid;
   display: flex;
-  margin: 50px 30px 0 30px;
-  padding-top: 50px;
   height: 100%;
+  margin: 50px 30px 0 30px;
   padding-bottom: 7%;
+  padding-top: 50px;
 }
 
 .description__article {
   display: flex;
+  height: 30px;
   margin-right: 50px;
   width: 70%;
-  height: 30px;
 }
 
 .description__table {
-  border: 1px solid gray;
   border-collapse: collapse;
+  border: 1px solid gray;
   height: 100%;
 }
 
@@ -415,18 +415,18 @@ td, th {
 }
 
 .description__li-first {
-  border: none;
   background-color: #727d95;
+  border: none;
   color: #fff;
 }
 
 .description__edit-btn {
+  background-color: #7f8ca0;
   background-image: url('../images/edit.svg');
-  background-repeat: no-repeat;
   background-position-x: 10px;
   background-position-y: 7px; 
+  background-repeat: no-repeat;
   background-size: 12px;
-  background-color: #7f8ca0;
   color: #fff;
   padding: 7px 10px 7px 25px;
   width: 60px;
@@ -434,9 +434,9 @@ td, th {
 
 .description__table-bachman {
   background-image: url('../images/bachmann.png');
-  background-repeat: no-repeat;
   background-position-x: 15px;
   background-position-y: 15px; 
+  background-repeat: no-repeat;
   background-size: 30px;
   padding-left: 55px;
 }
@@ -446,9 +446,9 @@ td, th {
 }
 
 .description__social {
-  background-repeat: no-repeat;
   background-position-x: 10%;
   background-position-y: 50%;
+  background-repeat: no-repeat;
   background-size: 10%;
   color: #fff;
   display: block;
@@ -461,18 +461,18 @@ td, th {
 }
 
 .description__social-facebook {
-  background-image: url('../images/facebook.svg');
   background-color: #5270bd;
+  background-image: url('../images/facebook.svg');
 }
 
 .description__social-twitter {
-  background-image: url('../images/twitter.svg');
   background-color: #4ba8ea;
+  background-image: url('../images/twitter.svg');
 }
 
 .description__social-linkedin {
-  background-image: url('../images/linkedin.svg');
   background-color: #3880b7;
+  background-image: url('../images/linkedin.svg');
 }
 
 .description__heading {
@@ -482,9 +482,9 @@ td, th {
 }
 
 .description__heading-icon {
-  background-repeat: no-repeat;
   background-position-x: 0%;
   background-position-y: 0%;
+  background-repeat: no-repeat;
   background-size: 15px;
   padding-left: 20px;
 }
@@ -518,8 +518,8 @@ td, th {
 
 .description__form-submit {
   background-color: rgba(0, 0, 0, 0);
-  padding: 0;
-  margin: 0;
   height: 32px;
+  margin: 0;
+  padding: 0;
   width: 18.9%;
 }
