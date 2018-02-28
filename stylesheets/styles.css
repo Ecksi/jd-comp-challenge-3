@@ -348,9 +348,20 @@ body {
 
 .header__button-open {
   border-radius: 28px;
-  font-size: 16px;
+  font-size: 14px;
+  font-weight: bold;
   right: 200px;
+  text-transform: uppercase;
   width: 95px;
+}
+
+.header__button-dot {
+  color: #9cc155;
+  font-size: 28px;
+}
+
+.header__button-open-text {
+  vertical-align: super;
 }
 
 .header__button-bookmark {
@@ -377,15 +388,18 @@ body {
 }
 
 .info-tab__li {
+  color: #8a8787;
   display: inline;
   font-size: 14px;
   font-weight: bold;
   margin-right: 10px;
   padding: 10px;
+  text-transform: uppercase;
 }
 
 .info-tab__li:hover {
   border-bottom: 3px solid #4ca4f3;
+  color: #605e5e;
 }
 
 .bottom-wrapper {
@@ -407,9 +421,11 @@ body {
 }
 
 .graphs__button {
+  border: 2px solid #cecdcd;
   border-radius: 28px;
+  color: #64707e;
   display: block;
-  height: 24px;
+  height: 28px;
   width: 200px;
 }
 
@@ -455,18 +471,14 @@ td, th {
   padding: 16px;
 }
 
-.description__li {
-  background-color: #fff;
+.description__head {
+  background-color: #727d95;
   border-top: 1px solid gray;
+  border: none;
+  color: #fff;
   padding: 15px;
   text-align: left;
   width: 100%;
-}
-
-.description__li-first {
-  background-color: #727d95;
-  border: none;
-  color: #fff;
 }
 
 .description__edit-btn {
@@ -481,6 +493,16 @@ td, th {
   padding: 7px 10px 7px 25px;
   width: 60px;
 }
+
+.description__table-td-first {
+  color: #64707e;
+  font-weight: bold;
+}
+
+.description__table-td-last {
+  color: #64707e;
+}
+
 
 .description__table-bachman {
   background-image: url('../images/bachmann.png');
@@ -499,7 +521,7 @@ td, th {
   background-position-x: 10%;
   background-position-y: 50%;
   background-repeat: no-repeat;
-  background-size: 10%;
+  background-size: 20px;
   color: #fff;
   display: block;
   font-size: 16px;
@@ -511,21 +533,23 @@ td, th {
 }
 
 .description__social-facebook {
-  background-color: #5270bd;
+  background-color: #475993;
   background-image: url('../images/facebook.svg');
 }
 
 .description__social-twitter {
   background-color: #4ba8ea;
   background-image: url('../images/twitter.svg');
+  background-size: 25px;
 }
 
 .description__social-linkedin {
-  background-color: #3880b7;
+  background-color: #0077B7;
   background-image: url('../images/linkedin.svg');
 }
 
 .description__heading {
+  color: #64707e;
   font-weight: bold;
   margin-bottom: 15px;
   margin-top: 15px;
@@ -552,6 +576,7 @@ td, th {
 }
 
 .description__body {
+  color: #64707e;
   font-size: 14px;
   margin-bottom: 15px;
 }
