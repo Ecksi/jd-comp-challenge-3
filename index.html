@@ -11,86 +11,86 @@
 </head>
 <body>
 <div class="wrapper">
-  <nav class="nav">
-    <div class="nav__avatar">
+  <nav class="nav" role="menu"  tabindex="1">
+    <div class="nav__avatar" role="hero-avatar">
       <span class="nav__avatar-text">Jìng-Yáng</span>
     </div>
-    <ul class="nav__ul nav__main">
-      <li class="nav__li nav__li-first"><span class="nav__li-category">Main</span></li>
-      <li class="nav__li"><a class="nav__link nav__icon nav__icon-home" href="#">Home</a></li>
-      <li class="nav__li"><a class="nav__link nav__icon nav__icon-jobs" href="#">Jobs</a></li>
-      <li class="nav__li"><a class="nav__link nav__icon nav__icon-resumes" href="#">Resumes</a></li>
-      <li class="nav__li"><a class="nav__link nav__icon nav__icon-task" href="#">Tasks</a></li>
-      <li class="nav__li"><a class="nav__link nav__icon nav__icon-calendar" href="#">Calendar</a></li>
+    <ul class="nav__ul nav__main" role="group">
+      <li class="nav__li nav__li-first" role="menu header"><span class="nav__li-category">Main</span></li>
+      <li class="nav__li" role="menu item"><a class="nav__link nav__icon nav__icon-home" href="#">Home</a></li>
+      <li class="nav__li" role="menu item"><a class="nav__link nav__icon nav__icon-jobs" href="#">Jobs</a></li>
+      <li class="nav__li" role="menu item"><a class="nav__link nav__icon nav__icon-resumes" href="#">Resumes</a></li>
+      <li class="nav__li" role="menu item"><a class="nav__link nav__icon nav__icon-task" href="#">Tasks</a></li>
+      <li class="nav__li" role="menu item"><a class="nav__link nav__icon nav__icon-calendar" href="#">Calendar</a></li>
     </ul>
-    <ul class="nav__ul nav__admin">
-      <li class="nav__li nav__li-first"><span class="nav__li-category">Admin</span></li>
-      <li class="nav__li"><a class="nav__link nav__icon nav__icon-users" href="#">Users</a></li>
-      <li class="nav__li"><a class="nav__link nav__icon nav__icon-locations" href="#">Locations</a></li>
-      <li class="nav__li"><a class="nav__link nav__icon nav__icon-workflow" href="#">Workflows</a></li>
-      <li class="nav__li"><a class="nav__link nav__icon nav__icon-job-boards" href="#">Job Boards</a></li>
-      <li class="nav__li"><a class="nav__link nav__icon nav__icon-social" href="#">Social</a></li>
+    <ul class="nav__ul nav__admin" role="group">
+      <li class="nav__li nav__li-first" role="menu header"><span class="nav__li-category">Admin</span></li>
+      <li class="nav__li" role="menu item"><a class="nav__link nav__icon nav__icon-users" href="#">Users</a></li>
+      <li class="nav__li" role="menu item"><a class="nav__link nav__icon nav__icon-locations" href="#">Locations</a></li>
+      <li class="nav__li" role="menu item"><a class="nav__link nav__icon nav__icon-workflow" href="#">Workflows</a></li>
+      <li class="nav__li" role="menu item"><a class="nav__link nav__icon nav__icon-job-boards" href="#">Job Boards</a></li>
+      <li class="nav__li" role="menu item"><a class="nav__link nav__icon nav__icon-social" href="#">Social</a></li>
     </ul>
-    <ul class="nav__ul nav__categories">
-      <li class="nav__li nav__li-first"><span class="nav__li-category">Categories</span></li>
+    <ul class="nav__ul nav__categories" role="group">
+      <li class="nav__li nav__li-first" role="menu header"><span class="nav__li-category">Categories</span></li>
         <form action="">
-      <li class="nav__li"><input class="nav__checkbox nav__checkbox-yellow" id="checkbox-admin" type="checkbox">
+      <li class="nav__li" role="menu checkbox"><input class="nav__checkbox nav__checkbox-yellow" id="checkbox-admin" type="checkbox">
         <label for="checkbox-admin">Administrative</label></li>
-      <li class="nav__li"><input class="nav__checkbox nav__checkbox-blue" id="checkbox-design" type="checkbox">
+      <li class="nav__li" role="menu checkbox"><input class="nav__checkbox nav__checkbox-blue" id="checkbox-design" type="checkbox">
         <label for="checkbox-design">Design</label></li>
-      <li class="nav__li"><input class="nav__checkbox nav__checkbox-red" id="checkbox-executives" type="checkbox">
+      <li class="nav__li" role="menu checkbox"><input class="nav__checkbox nav__checkbox-red" id="checkbox-executives" type="checkbox">
         <label for="checkbox-executives">Executive</label></li>
-      <li class="nav__li"><input class="nav__checkbox nav__checkbox-green" id="checkbox-hr" type="checkbox">
+      <li class="nav__li" role="menu checkbox"><input class="nav__checkbox nav__checkbox-green" id="checkbox-hr" type="checkbox">
         <label for="checkbox-hr">Human Resources</label></li>
       </form>
     </ul>
   </nav>
   <main class="main">
-    <section class="search">
-      <button class="button search__button search__hamburger"><span class="search__hamburger-arrow"></span></button>
-      <form class="search__form" action="">
-        <input class="search__input search__input-background" type="text" placeholder="Search for a job, task, or resume">
+    <section class="search" tabindex="1">
+      <button class="button search__button search__hamburger" aria-label="Hide Navigation"><span class="search__hamburger-arrow"></span></button>
+      <form class="search__form" action="" role="search">
+        <input class="search__input search__input-background" type="search" placeholder="Search for a job, task, or resume" aria-label="Search Field">
       </form>
-      <button class="button search__button search__button-first"></button>
-      <button class="button search__button search__button-middle"></button>
-      <button class="button search__button search__button-last"></button>
+      <button class="button search__button search__button-first" aria-label="Add User"></button>
+      <button class="button search__button search__button-middle" aria-label="Add to Calendar"></button>
+      <button class="button search__button search__button-last" aria-label="Setting"></button>
     </section>
-    <header class="header">
-      <h2 class="header__title">Incubatee for Aviato</h2>
-      <p class="header__location">Silicon Valley, CA &#8226; 
+    <header class="header" role="contentinfo">
+      <h2 class="header__title" aria-label="Job title" tabindex="0">Incubatee for Aviato</h2>
+      <p class="header__location" aria-label="Job location" tabindex="0">Silicon Valley, CA &#8226; 
       <a class="header__link" href=""> Preview this post</a></p>
-      <button class="button header__button header__button-open"><span class="header__button-dot"> &#8226 </span> <span class="header__button-open-text">Open</span></button>
-      <button class="button header__button header__button-bookmark"></button>
-      <button class="button header__button header__button-edit"></button>
-      <button class="button header__button header__button-delete"></button>
+      <button class="button header__button header__button-open" aria-label="Position Status"><span class="header__button-dot"> &#8226 </span> <span class="header__button-open-text">Open</span></button>
+      <button class="button header__button header__button-bookmark" aria-label="Bookmark Job"></button>
+      <button class="button header__button header__button-edit" aria-label="Edit Job"></button>
+      <button class="button header__button header__button-delete" aria-label="Delete Job"></button>
     </header>
     <section class="info-tab">
       <span class="info__hamburger"></span>
       <span class="info__hamburger-arrow"></span>
       <ul class="info-tab__ul">
-        <li class="info-tab__li">Summary</li>
-        <li class="info-tab__li">Applicants</li>
-        <li class="info-tab__li">Job Board</li>
-        <li class="info-tab__li">Interviews</li>
-        <li class="info-tab__li">Activity</li>
-        <li class="info-tab__li">Broadcast</li>
-        <li class="info-tab__li">Notifications</li>
+        <li class="info-tab__li" tabindex="0">Summary</li>
+        <li class="info-tab__li" tabindex="0">Applicants</li>
+        <li class="info-tab__li" tabindex="0">Job Board</li>
+        <li class="info-tab__li" tabindex="0">Interviews</li>
+        <li class="info-tab__li" tabindex="0">Activity</li>
+        <li class="info-tab__li" tabindex="0">Broadcast</li>
+        <li class="info-tab__li" tabindex="0">Notifications</li>
       </ul>
     </section>
     <div class="bottom-wrapper">
       <section class="graphs">
-        <div class="graphs__donuts">
-          <img class="graphs__bar-image" src="./images/donut-graph.png" alt="">
-          <button class="button graphs__button">Totals - Out of 5231 views</button>
+        <div class="graphs__donuts" tabindex="1">
+          <img class="graphs__bar-image" src="./images/donut-graph.png" alt="Donut Graph">
+          <button class="button graphs__button" aria-label="Total Views">Totals - Out of 5231 views</button>
         </div>
-        <div class="graphs__bar">
-          <img class="graphs__bar-image" src="./images/bar-chart.png" alt="">
-          <button class="button graphs__button">Applicants/Day</button>
+        <div class="graphs__bar" tabindex="1">
+          <img class="graphs__bar-image" src="./images/bar-chart.png" alt="Bar Graph">
+          <button class="button graphs__button" aria-label="Applicants Per Day">Applicants/Day</button>
         </div>
       </section>
       <section class="description">
         <article class="description__article">
-          <table class="description__table">
+          <table class="description__table" tabindex="1">
             <thead class="description__head">
               <tr class="description__table-tr">
                 <th class="descrption__table-th description__table-th-first">Job description</th>
@@ -135,7 +135,7 @@
             </tbody>
           </table>
         </article>
-        <aside class="description__aside">
+        <aside class="description__aside" tabindex="1">
           <button class="button description__social description__social-facebook">Post to Facebook</button>
           <button class="button description__social description__social-twitter">Tweet this Job</button>
           <button class="button description__social description__social-linkedin">Post to Linkedin</button>
